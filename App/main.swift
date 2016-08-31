@@ -20,10 +20,14 @@ let drop = Droplet(
     ]
 )
 
+//Race.database = drop.database
+
+
 // Registering commands
+/*
 drop.commands.append(
-    RacesSeeder(console: drop.console)
-)
+    #RacesSeeder(console: drop.console)
+)*/
 
 /**
     Vapor configuration files are located
